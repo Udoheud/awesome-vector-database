@@ -13,6 +13,7 @@ A curated list of awesome vector databases for storing, managing, and searching 
     - [NMSLIB](#nmslib)
     - [Cottontail DB](#cottontaildb)
     - [Vexvaut](#vexvault)
+    - [Infinity](#infinity)
 - [Commercial Databases](#commercial-databases)
     - [Pinecone](#pinecone)
     - [Vespa](#vespa)
@@ -95,6 +96,15 @@ Vector databases are essential tools for storing, managing, and searching large 
         - scalability by pushing embedding calculation to the edge
         - fast, because it can omit the network
         - large amount of storage through use of indexedb
+7. <a name="infinity"></a>**[Infinity](https://github.com/infiniflow/infinity)**
+   - Description: Infinity is a cutting-edge AI-native database that provides a wide range of search capabilities for rich data types such as vectors, full-text, and structured data. It provides robust support for various LLM applications, including search, recommenders, question-answering, conversational AI, copilot, content generation, and many more RAG (Retrieval-augmented Generation) applications.
+   - Features:
+        - Achieves 0.1 milliseconds query latency on million-scale vector datasets.
+        - Up to 10K QPS on million-scale vector datasets.
+        - Supports a fused search of multiple embeddings and full text, in addition to filtering.
+        - Supports a wide range of data types including strings, numerics, vectors, and more.
+        - A single-binary architecture with no dependencies.
+        - Intuitive Python API.
    
 ## Commercial Databases
 
